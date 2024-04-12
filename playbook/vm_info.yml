@@ -5,6 +5,7 @@
   tasks:
     - name: Get a list of all VirtualMachines
       redhat.openshift_virtualization.kubevirt_vm_info:
+      host: 
 #        namespace: default
       register: vm_list
 
