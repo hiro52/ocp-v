@@ -1,0 +1,5 @@
+---
+- name: Create VM for OCP-V
+  hosts: all
+
+  tasks:
