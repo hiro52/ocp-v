@@ -10,4 +10,5 @@
 
     - name: Display VM List
       ansible.builtin.debug:
+        var: vm_list
       
